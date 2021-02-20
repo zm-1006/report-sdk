@@ -26,4 +26,4 @@ jobs:
       - uses: actions/setup-node@v1
 
       # Runs a single command using the runners shell
-      - run: npm publish — access public
+      - run: npm publish --access public
