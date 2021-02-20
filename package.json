@@ -1,0 +1,21 @@
+{
+  "name": "report-sdk",
+  "version": "1.0.8",
+  "description": "report SDK for H5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zm-1006/report-sdk.git"
+  },
+  "keywords": [
+    "H5",
+    "js",
+    "SDK",
+    "埋点"
+  ],
+  "author": "zmer",
+  "license": "MIT"
+}
