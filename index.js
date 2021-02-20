@@ -1,4 +1,4 @@
 !function () {
     console.log('【name】：report-sdk')
-    console.log('【version】：1.0.11')
+    console.log('【version】：1.0.10')
 }

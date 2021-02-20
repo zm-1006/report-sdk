@@ -1,4 +1,5 @@
-name: Npm Publish:
+name: Npm Publish
+on:
  release:
  types: [published]jobs:
   build:
