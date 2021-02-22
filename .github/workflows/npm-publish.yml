@@ -30,4 +30,4 @@ jobs:
       # Runs a single command using the runners shell
       - run: npm publish
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
