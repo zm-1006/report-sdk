@@ -28,6 +28,6 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       # Runs a single command using the runners shell
-      - run: npm publish --access public
+      - run: npm publish
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
