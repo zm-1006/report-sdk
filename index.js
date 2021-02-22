@@ -1,4 +1,3 @@
-!function () {
-    console.log('【name】：report-sdk')
-    console.log('【version】：1.0.10')
+module.exports = (msg) => {
+    console.log(msg)
 }

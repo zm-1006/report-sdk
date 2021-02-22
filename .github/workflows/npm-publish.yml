@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Npm Publish
 
 # Controls when the action will run.
@@ -26,9 +24,11 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+          # 【易报错点】具体是  https://registry.npmjs.com/  或者 https://registry.npmjs.org/  请 npm login 登录到npm账户查看
           registry-url: https://registry.npmjs.com/
       # Runs a single command using the runners shell
       - run: npm publish
         env:
+          # 这个 NPM_AUTH_TOKEN 具体字段根据 github项目 上配置的名称而定
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
 
